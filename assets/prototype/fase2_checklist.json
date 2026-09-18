@@ -1,0 +1,37 @@
+{
+  "placed_final": 12,
+  "heads_visual": 3,
+  "instances_final": 12,
+  "n_schedule": [
+    [
+      0.0,
+      1
+    ],
+    [
+      2.0,
+      2
+    ],
+    [
+      4.0,
+      4
+    ],
+    [
+      6.0,
+      8
+    ],
+    [
+      8.0,
+      12
+    ]
+  ],
+  "loop": "n\u00e3o",
+  "mae_loop": 9.385301247427984,
+  "rect": "n\u00e3o",
+  "fill_ratio": 0.2945674503538005,
+  "peaks": "sim",
+  "duration_s": 10.0,
+  "resolution": [
+    1920,
+    1080
+  ]
+}
