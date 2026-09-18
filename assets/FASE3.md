@@ -1,5 +1,15 @@
 # Fase 3 — corte bruto mudo (75 s, loop)
 
+> **Nota da revisão (Fase 5).** Este corte foi revisto antes de continuar o
+> pipeline e passou no contrato: composição (não filtro), pico de 32 cópias,
+> loop fechado, sem blocos. Duas coisas foram corrigidas adiante, na versão
+> final: (a) os degraus do colapso (65 / 69 / 72 / 73,5 s) estavam fora da
+> grelha musical — passaram a 63,75 / 66,5625 / 69,375 / 72,1875 s (compassos
+> 34 / 35,5 / 37 / 38,5); (b) havia pares de cópias a 4,5 px de distância no
+> clímax — resolvido com *packing* determinístico. Detalhe em
+> [docs/REVISAO.md](../docs/REVISAO.md). O corte mudo fica como registo da
+> fase aprovada.
+
 Composição de recortes da Fase 1 sobre o prato do telhado. Sem áudio.
 **1920×1080** · 30 fps · 75 s · mudo
 

@@ -1,0 +1,135 @@
+{
+  "counts": [
+    {
+      "t": 0.0,
+      "n_compositor": 1
+    },
+    {
+      "t": 7.5,
+      "n_compositor": 1
+    },
+    {
+      "t": 15.2,
+      "n_compositor": 2
+    },
+    {
+      "t": 22.7,
+      "n_compositor": 4
+    },
+    {
+      "t": 30.2,
+      "n_compositor": 8
+    },
+    {
+      "t": 37.7,
+      "n_compositor": 15
+    },
+    {
+      "t": 45.2,
+      "n_compositor": 23
+    },
+    {
+      "t": 53.0,
+      "n_compositor": 32
+    },
+    {
+      "t": 60.2,
+      "n_compositor": 16
+    },
+    {
+      "t": 63.95,
+      "n_compositor": 8
+    },
+    {
+      "t": 66.76,
+      "n_compositor": 4
+    },
+    {
+      "t": 69.58,
+      "n_compositor": 2
+    },
+    {
+      "t": 72.4,
+      "n_compositor": 1
+    },
+    {
+      "t": 74.97,
+      "n_compositor": 1
+    }
+  ],
+  "mae_control_half_bob": 2.9559005272633745,
+  "peak_n": 32,
+  "peak_t": 52.5,
+  "mae_loop": 0.9643102173353909,
+  "mae_step": 1.628757394547325,
+  "loop_ok": true,
+  "sprite_fill_ratio": {
+    "idle": 0.295,
+    "walk_a": 0.27,
+    "walk_b": 0.289,
+    "peck": 0.321,
+    "coo": 0.339,
+    "fluff": 0.501,
+    "head_turn": 0.306
+  },
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 30,
+  "duration_s": 75.0,
+  "steps": [
+    [
+      0.0,
+      1
+    ],
+    [
+      15.0,
+      2
+    ],
+    [
+      22.5,
+      4
+    ],
+    [
+      30.0,
+      8
+    ],
+    [
+      37.5,
+      16
+    ],
+    [
+      45.0,
+      24
+    ],
+    [
+      52.5,
+      32
+    ],
+    [
+      60.0,
+      16
+    ],
+    [
+      63.75,
+      8
+    ],
+    [
+      66.5625,
+      4
+    ],
+    [
+      69.375,
+      2
+    ],
+    [
+      72.1875,
+      1
+    ]
+  ],
+  "encoded": "assets/final/coo_final_1080p.mp4",
+  "mae_loop_encoded": 1.6124503279320987,
+  "mae_step_encoded": 0.9174048353909465,
+  "loop_ok_encoded": true
+}

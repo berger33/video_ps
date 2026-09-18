@@ -13,3 +13,4 @@ output/raw/
 *.ffmpeg.log
 assets/previews/debug_*
 assets/previews/mids/
+assets/audio/*.wav

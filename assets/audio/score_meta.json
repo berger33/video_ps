@@ -1,0 +1,112 @@
+{
+  "bpm": 128,
+  "beat_s": 0.46875,
+  "bar_s": 1.875,
+  "bars": 40,
+  "duration_s": 75.0,
+  "sample_rate": 48000,
+  "loop": "buffer de 75 s periódico por construção (índices circulares + reverb circular)",
+  "rms": 0.17086558793636145,
+  "rms_dbfs": -15.346907843281336,
+  "peak": 0.7963083386421204,
+  "steps": [
+    {
+      "t": 0.0,
+      "bar": 0.0,
+      "beat": 0.0,
+      "n": 1,
+      "on_downbeat": true
+    },
+    {
+      "t": 15.0,
+      "bar": 8.0,
+      "beat": 32.0,
+      "n": 2,
+      "on_downbeat": true
+    },
+    {
+      "t": 22.5,
+      "bar": 12.0,
+      "beat": 48.0,
+      "n": 4,
+      "on_downbeat": true
+    },
+    {
+      "t": 30.0,
+      "bar": 16.0,
+      "beat": 64.0,
+      "n": 8,
+      "on_downbeat": true
+    },
+    {
+      "t": 37.5,
+      "bar": 20.0,
+      "beat": 80.0,
+      "n": 16,
+      "on_downbeat": true
+    },
+    {
+      "t": 45.0,
+      "bar": 24.0,
+      "beat": 96.0,
+      "n": 24,
+      "on_downbeat": true
+    },
+    {
+      "t": 52.5,
+      "bar": 28.0,
+      "beat": 112.0,
+      "n": 32,
+      "on_downbeat": true
+    },
+    {
+      "t": 60.0,
+      "bar": 32.0,
+      "beat": 128.0,
+      "n": 16,
+      "on_downbeat": true
+    },
+    {
+      "t": 63.75,
+      "bar": 34.0,
+      "beat": 136.0,
+      "n": 8,
+      "on_downbeat": true
+    },
+    {
+      "t": 66.5625,
+      "bar": 35.5,
+      "beat": 142.0,
+      "n": 4,
+      "on_downbeat": false
+    },
+    {
+      "t": 69.375,
+      "bar": 37.0,
+      "beat": 148.0,
+      "n": 2,
+      "on_downbeat": true
+    },
+    {
+      "t": 72.1875,
+      "bar": 38.5,
+      "beat": 154.0,
+      "n": 1,
+      "on_downbeat": false
+    }
+  ],
+  "layer_thresholds": {
+    "kick4": 2,
+    "hats8": 4,
+    "bass": 4,
+    "openhat": 8,
+    "bass_motion": 8,
+    "lead": 8,
+    "stab": 16,
+    "hat16": 16,
+    "clap": 24,
+    "lead_hi": 24
+  },
+  "arrangement": "camadas com limiar MIN_N sobre N(t); colapso espelhado",
+  "mix": "buses (drums/bass/harmony/lead/fx) + ducking do kick + reverb circular"
+}

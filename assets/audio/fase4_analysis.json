@@ -1,0 +1,201 @@
+{
+  "wav": "assets/audio/coo_score.wav",
+  "duration_s": 75.0,
+  "sample_rate": 48000,
+  "tempo_detected": 127.841,
+  "tempo_target": 128.0,
+  "tempo_error_bpm": -0.159,
+  "beats_detected": 155,
+  "onsets_detected": 352,
+  "onset_baseline": 0.5682,
+  "onset_p90": 2.4476,
+  "steps": [
+    {
+      "t": 15.0,
+      "n": 2,
+      "onset_strength": 7.374,
+      "onset_over_baseline": 12.98,
+      "onset_over_p90": 3.01,
+      "nearest_beat_offset_s": 0.0187,
+      "nearest_beat_offset_frames": 0.56,
+      "on_downbeat": true
+    },
+    {
+      "t": 22.5,
+      "n": 4,
+      "onset_strength": 8.841,
+      "onset_over_baseline": 15.56,
+      "onset_over_p90": 3.61,
+      "nearest_beat_offset_s": 0.0173,
+      "nearest_beat_offset_frames": 0.52,
+      "on_downbeat": true
+    },
+    {
+      "t": 30.0,
+      "n": 8,
+      "onset_strength": 9.612,
+      "onset_over_baseline": 16.92,
+      "onset_over_p90": 3.93,
+      "nearest_beat_offset_s": 0.016,
+      "nearest_beat_offset_frames": 0.48,
+      "on_downbeat": true
+    },
+    {
+      "t": 37.5,
+      "n": 16,
+      "onset_strength": 9.337,
+      "onset_over_baseline": 16.43,
+      "onset_over_p90": 3.81,
+      "nearest_beat_offset_s": 0.0147,
+      "nearest_beat_offset_frames": 0.44,
+      "on_downbeat": true
+    },
+    {
+      "t": 45.0,
+      "n": 24,
+      "onset_strength": 9.19,
+      "onset_over_baseline": 16.17,
+      "onset_over_p90": 3.75,
+      "nearest_beat_offset_s": 0.0133,
+      "nearest_beat_offset_frames": 0.4,
+      "on_downbeat": true
+    },
+    {
+      "t": 52.5,
+      "n": 32,
+      "onset_strength": 7.955,
+      "onset_over_baseline": 14.0,
+      "onset_over_p90": 3.25,
+      "nearest_beat_offset_s": 0.0227,
+      "nearest_beat_offset_frames": 0.68,
+      "on_downbeat": true
+    },
+    {
+      "t": 60.0,
+      "n": 16,
+      "onset_strength": 6.97,
+      "onset_over_baseline": 12.27,
+      "onset_over_p90": 2.85,
+      "nearest_beat_offset_s": 0.0213,
+      "nearest_beat_offset_frames": 0.64,
+      "on_downbeat": true
+    },
+    {
+      "t": 63.75,
+      "n": 8,
+      "onset_strength": 9.045,
+      "onset_over_baseline": 15.92,
+      "onset_over_p90": 3.7,
+      "nearest_beat_offset_s": 0.0153,
+      "nearest_beat_offset_frames": 0.46,
+      "on_downbeat": true
+    },
+    {
+      "t": 66.5625,
+      "n": 4,
+      "onset_strength": 7.454,
+      "onset_over_baseline": 13.12,
+      "onset_over_p90": 3.05,
+      "nearest_beat_offset_s": 0.0188,
+      "nearest_beat_offset_frames": 0.56,
+      "on_downbeat": false
+    },
+    {
+      "t": 69.375,
+      "n": 2,
+      "onset_strength": 6.004,
+      "onset_over_baseline": 10.57,
+      "onset_over_p90": 2.45,
+      "nearest_beat_offset_s": 0.0223,
+      "nearest_beat_offset_frames": 0.67,
+      "on_downbeat": true
+    },
+    {
+      "t": 72.1875,
+      "n": 1,
+      "onset_strength": 2.122,
+      "onset_over_baseline": 3.73,
+      "onset_over_p90": 0.87,
+      "nearest_beat_offset_s": 0.0152,
+      "nearest_beat_offset_frames": 0.46,
+      "on_downbeat": false
+    }
+  ],
+  "median_onset_over_baseline": 14.0,
+  "max_beat_offset_frames": 0.68,
+  "rms_per_bar_vs_n_corr": 0.714,
+  "loop_seam_abs": 0.040039,
+  "loop_local_slope": 0.13736,
+  "loop_ok": true,
+  "tail_rms": 0.03033,
+  "head_rms": 0.23673,
+  "pops": [
+    {
+      "t": 15.0,
+      "nearest_beat_offset_s": 0.0187,
+      "nearest_beat_offset_frames": 0.56,
+      "onset_over_baseline": 12.98
+    },
+    {
+      "t": 22.5,
+      "nearest_beat_offset_s": 0.0173,
+      "nearest_beat_offset_frames": 0.52,
+      "onset_over_baseline": 15.56
+    },
+    {
+      "t": 30.0,
+      "nearest_beat_offset_s": 0.016,
+      "nearest_beat_offset_frames": 0.48,
+      "onset_over_baseline": 16.92
+    },
+    {
+      "t": 37.5,
+      "nearest_beat_offset_s": 0.0147,
+      "nearest_beat_offset_frames": 0.44,
+      "onset_over_baseline": 16.43
+    },
+    {
+      "t": 45.0,
+      "nearest_beat_offset_s": 0.0133,
+      "nearest_beat_offset_frames": 0.4,
+      "onset_over_baseline": 16.17
+    },
+    {
+      "t": 52.5,
+      "nearest_beat_offset_s": 0.0227,
+      "nearest_beat_offset_frames": 0.68,
+      "onset_over_baseline": 14.0
+    },
+    {
+      "t": 60.0,
+      "nearest_beat_offset_s": 0.0213,
+      "nearest_beat_offset_frames": 0.64,
+      "onset_over_baseline": 12.27
+    },
+    {
+      "t": 63.75,
+      "nearest_beat_offset_s": 0.0153,
+      "nearest_beat_offset_frames": 0.46,
+      "onset_over_baseline": 15.92
+    },
+    {
+      "t": 66.5625,
+      "nearest_beat_offset_s": 0.0188,
+      "nearest_beat_offset_frames": 0.56,
+      "onset_over_baseline": 13.12
+    },
+    {
+      "t": 69.375,
+      "nearest_beat_offset_s": 0.0223,
+      "nearest_beat_offset_frames": 0.67,
+      "onset_over_baseline": 10.57
+    },
+    {
+      "t": 72.1875,
+      "nearest_beat_offset_s": 0.0152,
+      "nearest_beat_offset_frames": 0.46,
+      "onset_over_baseline": 3.73
+    }
+  ],
+  "all_steps_on_bar_grid": true
+}
