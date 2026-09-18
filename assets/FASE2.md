@@ -28,7 +28,7 @@ início ao fim.
 
 ## Checklist de autoverificação
 
-- Instâncias no frame final: **12** (compositor = 12; proxy visual cabeças = 3). Gate: ≥ 8.
+- Instâncias no frame final: **12** (compositor = 12; contagem visual de cabeças em `fase2_last.jpg` = 12). Gate: ≥ 8.
 - Loop first↔last: **não** (MAE last↔first = 9.39). Esperado **não** neste protótipo: o arco é 1 → 12. Loop perfeito é a Fase 3.
 - Artefacto de bloco/retângulo: **não** (fill ratio do recorte = 0.295).
 - Multiplicação com picos: **sim** — degraus em t=2s, 4s, 6s, 8s.
