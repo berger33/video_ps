@@ -1,0 +1,18 @@
+{
+  "evento_duplicacao_frame": 60,
+  "reveal_frames_2pct_a_98pct": 16,
+  "reveal_gate_keyframes": 16,
+  "offset_tempo_copia2_frames": 12,
+  "pose_diff_mean_abs_min": 16.17,
+  "pose_diff_mean_abs_mean": 20.748235294117645,
+  "poses_identicas_simultaneas": false,
+  "escalas": {
+    "copia1": 0.813,
+    "copia2": 0.747
+  },
+  "sombra_contato": "elipse blur sigma=9, strength 0.28/0.24",
+  "color_match_delta_local_antes": 20.97,
+  "color_match_delta_local_depois": 0.27,
+  "matting": "grabcut-opencv",
+  "ancoragem_chao": "foot-anchor por frame (Fase 1: std 3.69px)"
+}
