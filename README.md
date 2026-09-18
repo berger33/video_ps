@@ -8,8 +8,8 @@ Este repositório segue um pipeline em 6 fases com **aprovação humana obrigat�
 |------|---------|--------|
 | 0 | [Brief de conceito](docs/FASE0_BRIEF.md) | aprovada |
 | 1 | [Assets brutos + índice](assets/INDEX.md) | aprovada |
-| 2 | [Protótipo da proliferação](assets/FASE2.md) (≥ 8 cópias no frame final) | **em revisão** |
-| 3 | Corte bruto 60–90 s, mudo, loop | bloqueada |
+| 2 | [Protótipo da proliferação](assets/FASE2.md) (≥ 8 cópias no frame final) | aprovada |
+| 3 | [Corte bruto 75 s, mudo, loop](assets/FASE3.md) | **em revisão** |
 | 4 | Trilha 128 BPM sincronizada aos picos de `N(t)` | bloqueada |
 | 5 | MP4 final 1080p | bloqueada |
 
