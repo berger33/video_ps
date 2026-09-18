@@ -1,0 +1,11 @@
+{
+  "source_frames": 3,
+  "dimensions": "1376x768",
+  "method": "per-frame chroma key #00ff00, fuzz 18%, edge blur 0.45px",
+  "cycle": [
+    "pose_01",
+    "pose_02",
+    "pose_03",
+    "pose_02"
+  ]
+}

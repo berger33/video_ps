@@ -1,0 +1,11 @@
+{
+  "input": "outputs/fase4_capybara_60s.mp4",
+  "output": "outputs/capybara_surreal_final_1080p.mp4",
+  "resolution": "1920x1080",
+  "duration_seconds": 60,
+  "fps": 30,
+  "audio": "AAC 192 kbps, preserved from approved phase 4 mix",
+  "color_pass": "contrast 1.035, brightness 0.005, saturation 1.04",
+  "upscale": "Lanczos",
+  "events_changed": 0
+}

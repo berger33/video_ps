@@ -1,0 +1,19 @@
+{
+  "source": "Animal Locomotion Pl.746 - Capybara Walking.gif",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Animal_Locomotion_Pl.746_-_Capybara_Walking.gif",
+  "license": "Public domain",
+  "author": "Eadweard Muybridge; animation reconstruction by Avelludo",
+  "frames": 9,
+  "source_fps": 10,
+  "cycle_duration_seconds": 0.9,
+  "matting": {
+    "method": "luminance threshold on white plate background, inverted to alpha, 0.35px edge blur",
+    "mask_count": 9,
+    "mask_format": "8-bit grayscale PNG; white=subject, black=background"
+  },
+  "review_notes": [
+    "Camera is fixed and the walking cycle is explicit.",
+    "The source is a historical black-and-white study, not natural-color footage.",
+    "This is suitable as a timing/matting prototype; a natural-color field clip can replace it after visual review without changing the pipeline contract."
+  ]
+}
