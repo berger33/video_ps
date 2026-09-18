@@ -1,0 +1,386 @@
+[
+  {
+    "type": "ADD",
+    "t": 6.0604,
+    "frame": 182,
+    "onset_dist_frames": 0.188
+  },
+  {
+    "type": "ADD",
+    "t": 7.5117,
+    "frame": 225,
+    "onset_dist_frames": 0.35
+  },
+  {
+    "type": "ADD",
+    "t": 8.2083,
+    "frame": 246,
+    "onset_dist_frames": 0.248
+  },
+  {
+    "type": "ADD",
+    "t": 8.8468,
+    "frame": 265,
+    "onset_dist_frames": 0.404
+  },
+  {
+    "type": "ADD",
+    "t": 10.1936,
+    "frame": 306,
+    "onset_dist_frames": 0.193
+  },
+  {
+    "type": "REMOVE",
+    "t": 10.4606,
+    "frame": 314,
+    "onset_dist_frames": 0.182
+  },
+  {
+    "type": "ADD",
+    "t": 10.8902,
+    "frame": 327,
+    "onset_dist_frames": 0.295
+  },
+  {
+    "type": "REMOVE",
+    "t": 10.9946,
+    "frame": 330,
+    "onset_dist_frames": 0.161
+  },
+  {
+    "type": "ADD",
+    "t": 11.7957,
+    "frame": 354,
+    "onset_dist_frames": 0.128
+  },
+  {
+    "type": "REMOVE",
+    "t": 12.0628,
+    "frame": 362,
+    "onset_dist_frames": 0.117
+  },
+  {
+    "type": "ADD",
+    "t": 14.6402,
+    "frame": 439,
+    "onset_dist_frames": 0.205
+  },
+  {
+    "type": "REMOVE",
+    "t": 14.7447,
+    "frame": 442,
+    "onset_dist_frames": 0.34
+  },
+  {
+    "type": "ADD",
+    "t": 15.5458,
+    "frame": 466,
+    "onset_dist_frames": 0.373
+  },
+  {
+    "type": "REMOVE",
+    "t": 15.8128,
+    "frame": 474,
+    "onset_dist_frames": 0.384
+  },
+  {
+    "type": "ADD",
+    "t": 16.6139,
+    "frame": 498,
+    "onset_dist_frames": 0.416
+  },
+  {
+    "type": "REMOVE",
+    "t": 16.8925,
+    "frame": 507,
+    "onset_dist_frames": 0.224
+  },
+  {
+    "type": "ADD",
+    "t": 17.8561,
+    "frame": 536,
+    "onset_dist_frames": 0.316
+  },
+  {
+    "type": "REMOVE",
+    "t": 17.9606,
+    "frame": 539,
+    "onset_dist_frames": 0.181
+  },
+  {
+    "type": "ADD",
+    "t": 18.7617,
+    "frame": 563,
+    "onset_dist_frames": 0.148
+  },
+  {
+    "type": "REMOVE",
+    "t": 19.0288,
+    "frame": 571,
+    "onset_dist_frames": 0.137
+  },
+  {
+    "type": "ADD",
+    "t": 19.8298,
+    "frame": 595,
+    "onset_dist_frames": 0.105
+  },
+  {
+    "type": "REMOVE",
+    "t": 20.0969,
+    "frame": 603,
+    "onset_dist_frames": 0.094
+  },
+  {
+    "type": "ADD",
+    "t": 23.5799,
+    "frame": 707,
+    "onset_dist_frames": 0.396
+  },
+  {
+    "type": "ADD",
+    "t": 24.648,
+    "frame": 739,
+    "onset_dist_frames": 0.439
+  },
+  {
+    "type": "REMOVE",
+    "t": 24.9266,
+    "frame": 748,
+    "onset_dist_frames": 0.201
+  },
+  {
+    "type": "ADD",
+    "t": 25.7277,
+    "frame": 772,
+    "onset_dist_frames": 0.169
+  },
+  {
+    "type": "REMOVE",
+    "t": 25.9947,
+    "frame": 780,
+    "onset_dist_frames": 0.158
+  },
+  {
+    "type": "ADD",
+    "t": 26.7958,
+    "frame": 804,
+    "onset_dist_frames": 0.125
+  },
+  {
+    "type": "REMOVE",
+    "t": 27.0629,
+    "frame": 812,
+    "onset_dist_frames": 0.114
+  },
+  {
+    "type": "ADD",
+    "t": 27.8639,
+    "frame": 836,
+    "onset_dist_frames": 0.082
+  },
+  {
+    "type": "REMOVE",
+    "t": 28.6766,
+    "frame": 860,
+    "onset_dist_frames": 0.299
+  },
+  {
+    "type": "ADD",
+    "t": 28.9437,
+    "frame": 868,
+    "onset_dist_frames": 0.31
+  },
+  {
+    "type": "REMOVE",
+    "t": 29.2107,
+    "frame": 876,
+    "onset_dist_frames": 0.321
+  },
+  {
+    "type": "ADD",
+    "t": 31.0799,
+    "frame": 932,
+    "onset_dist_frames": 0.397
+  },
+  {
+    "type": "REMOVE",
+    "t": 31.3469,
+    "frame": 940,
+    "onset_dist_frames": 0.408
+  },
+  {
+    "type": "ADD",
+    "t": 31.881,
+    "frame": 956,
+    "onset_dist_frames": 0.43
+  },
+  {
+    "type": "REMOVE",
+    "t": 32.9607,
+    "frame": 989,
+    "onset_dist_frames": 0.178
+  },
+  {
+    "type": "ADD",
+    "t": 33.2278,
+    "frame": 997,
+    "onset_dist_frames": 0.167
+  },
+  {
+    "type": "REMOVE",
+    "t": 33.4948,
+    "frame": 1005,
+    "onset_dist_frames": 0.156
+  },
+  {
+    "type": "ADD",
+    "t": 34.2959,
+    "frame": 1029,
+    "onset_dist_frames": 0.124
+  },
+  {
+    "type": "REMOVE",
+    "t": 34.5629,
+    "frame": 1037,
+    "onset_dist_frames": 0.113
+  },
+  {
+    "type": "ADD",
+    "t": 35.364,
+    "frame": 1061,
+    "onset_dist_frames": 0.08
+  },
+  {
+    "type": "REMOVE",
+    "t": 35.6426,
+    "frame": 1069,
+    "onset_dist_frames": 0.279
+  },
+  {
+    "type": "ADD",
+    "t": 36.4437,
+    "frame": 1093,
+    "onset_dist_frames": 0.312
+  },
+  {
+    "type": "REMOVE",
+    "t": 37.2448,
+    "frame": 1117,
+    "onset_dist_frames": 0.344
+  },
+  {
+    "type": "ADD",
+    "t": 37.5118,
+    "frame": 1125,
+    "onset_dist_frames": 0.355
+  },
+  {
+    "type": "REMOVE",
+    "t": 37.7789,
+    "frame": 1133,
+    "onset_dist_frames": 0.366
+  },
+  {
+    "type": "ADD",
+    "t": 39.6481,
+    "frame": 1189,
+    "onset_dist_frames": 0.442
+  },
+  {
+    "type": "ADD",
+    "t": 40.5885,
+    "frame": 1218,
+    "onset_dist_frames": 0.346
+  },
+  {
+    "type": "REMOVE",
+    "t": 42.0629,
+    "frame": 1262,
+    "onset_dist_frames": 0.112
+  },
+  {
+    "type": "ADD",
+    "t": 42.2023,
+    "frame": 1266,
+    "onset_dist_frames": 0.068
+  },
+  {
+    "type": "REMOVE",
+    "t": 42.597,
+    "frame": 1278,
+    "onset_dist_frames": 0.09
+  },
+  {
+    "type": "ADD",
+    "t": 42.864,
+    "frame": 1286,
+    "onset_dist_frames": 0.079
+  },
+  {
+    "type": "ADD",
+    "t": 45.0119,
+    "frame": 1350,
+    "onset_dist_frames": 0.356
+  },
+  {
+    "type": "REMOVE",
+    "t": 45.2789,
+    "frame": 1358,
+    "onset_dist_frames": 0.367
+  },
+  {
+    "type": "ADD",
+    "t": 46.08,
+    "frame": 1382,
+    "onset_dist_frames": 0.4
+  },
+  {
+    "type": "REMOVE",
+    "t": 46.347,
+    "frame": 1390,
+    "onset_dist_frames": 0.411
+  },
+  {
+    "type": "REMOVE",
+    "t": 47.4268,
+    "frame": 1423,
+    "onset_dist_frames": 0.197
+  },
+  {
+    "type": "REMOVE",
+    "t": 48.0885,
+    "frame": 1443,
+    "onset_dist_frames": 0.344
+  },
+  {
+    "type": "REMOVE",
+    "t": 50.9098,
+    "frame": 1527,
+    "onset_dist_frames": 0.293
+  },
+  {
+    "type": "REMOVE",
+    "t": 51.4438,
+    "frame": 1543,
+    "onset_dist_frames": 0.314
+  },
+  {
+    "type": "REMOVE",
+    "t": 55.7279,
+    "frame": 1672,
+    "onset_dist_frames": 0.163
+  },
+  {
+    "type": "REMOVE",
+    "t": 57.8641,
+    "frame": 1736,
+    "onset_dist_frames": 0.076
+  },
+  {
+    "type": "REMOVE",
+    "t": 58.0267,
+    "frame": 1741,
+    "onset_dist_frames": 0.2
+  }
+]

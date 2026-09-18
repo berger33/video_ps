@@ -1,0 +1,15 @@
+{
+  "duracao_s": 60.0,
+  "bpm": 112,
+  "n_onsets": 251,
+  "n_eventos": 64,
+  "n_adds": 32,
+  "n_removes": 32,
+  "onset_dist_max_frames_ADD": 0.442,
+  "onset_dist_max_frames_TODOS": 0.442,
+  "correlacao_count_x_rms_por_segundo": 0.931,
+  "count_max": 8,
+  "count_final": 1,
+  "count_inicial": 1,
+  "evento_0_s": 6.0604
+}
