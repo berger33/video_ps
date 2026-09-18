@@ -1,5 +1,6 @@
 # intermediários regeneráveis (reconstruir: python3 scripts/build_clips.py)
 assets/build/*/frames/
+assets/build/fase4/video_sem_audio.mp4
 assets/build/_*.png
 image-search/
 __pycache__/
