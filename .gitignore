@@ -10,3 +10,6 @@ build/
 .DS_Store
 output/raw/
 *.pyc
+*.ffmpeg.log
+assets/previews/debug_*
+assets/previews/mids/
