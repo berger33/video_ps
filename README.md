@@ -15,8 +15,8 @@ Trabalho conduzido em fases, com aprovação humana obrigatória entre cada uma.
 | Fase | Escopo | Status |
 |---|---|---|
 | 0 | Entendimento do roteiro (sem código) | **aprovada** |
-| 1 | Aquisição/preparação de assets (clipes + máscaras alpha) | **entregue — aguardando aprovação** |
-| 2 | Protótipo do mecanismo (1 bicada → 1 duplicação, por oclusão) | pendente |
+| 1 | Aquisição/preparação de assets (clipes + máscaras alpha) | **aprovada** |
+| 2 | Protótipo do mecanismo (1 bicada → 1 duplicação, por oclusão) | **entregue — aguardando aprovação** |
 | 3 | Áudio (diegético ou trilha pronta — decisão documentada) | pendente |
 | 4 | Build do trecho completo 0:00–0:45 | pendente |
 | 5 | Polimento e exportação MP4 1080p | pendente |
@@ -29,6 +29,9 @@ Trabalho conduzido em fases, com aprovação humana obrigatória entre cada uma.
 - [`docs/fase1-assets.md`](docs/fase1-assets.md) — análise medida do material recebido
   (redundância, paralaxe, qualidade por região, localização da bicada em f400), pivotamento
   do matting, assets produzidos com números e checklist parcial (Fase 1).
+- [`docs/fase2-mecanismo.md`](docs/fase2-mecanismo.md) — protótipo do mecanismo: bicada →
+  salto → oclusão (carapaça) → duplicação, com checklist medido (reveal 10 frames,
+  MAE 45,1 entre poses, oclusão 100%, sombra Δ 8–12) e decisões de design (Fase 2).
 
 ## Material de origem
 
