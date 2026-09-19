@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pombo//Protocolo — Fase 3: trilha 45,000s</title>
+<style>
+  body { font-family: system-ui, sans-serif; background: #14161a; color: #e8e8ec;
+         max-width: 1000px; margin: 2rem auto; padding: 0 1rem; }
+  h1 { font-size: 1.3rem; }
+  .card { background: #1d2026; border: 1px solid #2c3038; border-radius: 10px;
+          padding: 1rem 1.2rem; margin: 1rem 0; }
+  audio { width: 100%; }
+  img { width: 100%; border-radius: 8px; margin-top: .8rem; background: #f6f6f8; }
+  .meta { color: #9aa0aa; font-size: .85rem; }
+  .tag { display: inline-block; background: #2f3644; border-radius: 999px;
+         padding: .15rem .7rem; font-size: .8rem; margin-right: .4rem; }
+</style>
+</head>
+<body>
+  <h1>Pombo//Protocolo — <span class="tag">Fase 3</span> trilha diegética
+      <span class="tag">45,000s / 1080 frames</span></h1>
+  <p class="meta">Percussão 100% de samples do próprio clipe (bicada = kick,
+  unhas = woodblock/hi-hat, rachadura = crack). Único elemento sintetizado:
+  arrulho grave (baixo) — não há arrulho no material.</p>
+
+  <div class="card">
+    <b>1. Trilha da Fase 3</b> <span class="tag">fase3_track.wav</span>
+    <audio controls preload="metadata" src="audio/fase3_track.wav"></audio>
+    <p class="meta">Estrutura: 0:00–0:15 cama + passos reais (1º evento forte em 0:12)
+    · 0:15–0:30 quantização + duplicações (bicada da imagem em 16,667s)
+    · 0:30–0:45 build + patas + <b>bicada coletiva em 44,5s → corte em 45,0s</b></p>
+  </div>
+
+  <div class="card">
+    <b>2. Áudio original do clipe (referência)</b> <span class="tag">A_ambiente.wav</span>
+    <audio controls preload="none" src="audio/A_ambiente.wav"></audio>
+    <p class="meta">20,01s — todos os samples da trilha vieram daqui
+    (bicada em 16,7656s; tiques de unhas mapeados por cluster).</p>
+  </div>
+
+  <div class="card">
+    <b>Waveform + marcadores</b>
+    <p class="meta">vermelho = kick · laranja = crack/minipeck · bordas claras = blocos A/B/C</p>
+    <img src="audio/fase3_preview.png" alt="waveform da trilha com marcadores de eventos">
+  </div>
+</body>
+</html>

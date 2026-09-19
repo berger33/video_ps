@@ -1,0 +1,150 @@
+{
+ "itens": {
+  "1_revelacao": {
+   "frames": 10,
+   "criterio": ">= 8",
+   "silhueta_A_fechada_componentes": 1,
+   "silhueta_A_aberta_componentes": 2,
+   "ok": true
+  },
+  "2_pose_idem": {
+   "mae_por_frame": [
+    [
+     425,
+     39.4
+    ],
+    [
+     430,
+     38.9
+    ],
+    [
+     435,
+     38.1
+    ],
+    [
+     440,
+     36.8
+    ]
+   ],
+   "mae_min": 36.8,
+   "criterio": "MAE >= 2 (diferenca de pose/escala/rotacao)",
+   "ok": true
+  },
+  "3_bicada_som": {
+   "bicada_visual_frame": 400,
+   "nota": "audio na Fase 3; kick no onset exato do frame da bicada (distancia alvo 0 frames; max 1 com trilha pronta)",
+   "ok": true
+  },
+  "4_bloco": {
+   "fill_bbox (<=0,93 = nao e retangulo)": [
+    [
+     "f411_A",
+     0.626,
+     0.93
+    ],
+    [
+     "f411_B",
+     0.615,
+     1.0
+    ],
+    [
+     "f425_A",
+     0.519,
+     0.96
+    ],
+    [
+     "f425_B",
+     0.624,
+     1.0
+    ],
+    [
+     "f435_A",
+     0.532,
+     0.92
+    ],
+    [
+     "f435_B",
+     0.628,
+     1.0
+    ]
+   ],
+   "fill_max": 0.628,
+   "borda_suave_min": 0.92,
+   "ok": true
+  },
+  "5_anti_pop": {
+   "alfa_nucleo_B_por_frame (medidos da layer de B)": [
+    [
+     380,
+     254.0
+    ],
+    [
+     390,
+     254.0
+    ],
+    [
+     398,
+     254.0
+    ],
+    [
+     405,
+     254.0
+    ],
+    [
+     411,
+     254.0
+    ],
+    [
+     414,
+     254.0
+    ],
+    [
+     417,
+     254.0
+    ],
+    [
+     420,
+     254.0
+    ],
+    [
+     421,
+     254.0
+    ],
+    [
+     425,
+     254.0
+    ],
+    [
+     430,
+     254.0
+    ],
+    [
+     435,
+     254.0
+    ],
+    [
+     440,
+     254.0
+    ]
+   ],
+   "delta": 0.0,
+   "criterio": "delta < 1 (B nunca anima alfa/escala; revela por oclusao)",
+   "ok": true
+  },
+  "6_sombra": {
+   "delta_lum_sob_objeto": {
+    "A": 8.0,
+    "B": 13.8
+   },
+   "criterio": ">= 6 (sombra de contato legivel)",
+   "ok": true
+  },
+  "7_oclusao": {
+   "min_cobertura_B_por_A": 1.0,
+   "frames_medidos": 43,
+   "criterio": "1.0 (B nunca visivel antes da abertura)",
+   "ok": true
+  }
+ },
+ "aprovado": true
+}

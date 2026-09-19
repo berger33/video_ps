@@ -1,31 +1,28 @@
-# Assets de mídia ficam FORA do Git (workspace local apenas).
-# No repositório entra só código, docs e listas de decisão.
+# ================= CONVENÇÃO DE GIT (revisão F4, 2026-09-19) ===========
+# Regra do usuário: ENTREGAS vão para o Git (para baixar e não perder
+# progresso). INTERMEDIÁRIOS pesados ficam fora — 100% regeneráveis via
+# tools/ (build_plate.py, extract_sprites.py, compose_*.py: determinísticos).
 
-# vídeo / placas / renders
-/assets/
-/plates/
+# placas de estabilização (regen: tools/build_plate.py)
+/assets/plates/
+
+# dumps por frame e layers (regen: tools/compose_fase2.py / compose_fase4.py)
+/assets/out/fase2/frames_1280x720/
+/assets/out/fase2/faz2_zoom/
+/assets/out/fase2/layers/
+/assets/out/fase4/f[0-9]*.png
+/assets/out/fase4/z[0-9]*.png
+/assets/out/fase4/layers/
+
+# cópia redundante (fase4_final.mp4 = fase4_full.mp4 + trilha)
+/assets/out/fase4/fase4_full.mp4
+
+# renders de teste grandes (se existirem)
 /renders/
 /build/
 /out/
-*.mp4
-*.mov
-*.mkv
-*.webm
-*.prores
 *.dpx
-
-# áudio (samples, stems, mixagens)
-/audio/
-*.wav
-*.aiff
-*.flac
-
-# máscaras / mattes / intermediários por frame
-/masks/
-/frames/
-/intermediate/
 *.exr
-*.tiff
 
 # ambientes Python (não persistem entre turnos; recriados por tools/setup_env.sh)
 .venv/

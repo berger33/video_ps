@@ -1,0 +1,183 @@
+{
+ "formato": "mono 48kHz, 45,000s = 1080 frames @ 24fps",
+ "caminho": "diegetico: percussao 100% de samples do proprio clipe; arrulho (baixo) sintetizado — unico elemento sem sample (verificado: varredura tonal 80-800Hz nao encontra arrulho no material)",
+ "grade": {
+  "bpm": 120,
+  "frames_por_beat": 12.0,
+  "frames_por_compasso": 48,
+  "beat_n_frame": "frame = (n-1)*12",
+  "nota": "a bicada e a mestra: o kick #2 esta no frame da bicada da imagem (f400, F2 aprovado) por ajuste explicito — f400 nao e beat do grid (mais proximo: f396, drag de 4f documentado); as demais bicadas (novas, Fase 4) encaixam em beats do grid; verify roda contra o audio real apos o corte"
+ },
+ "eventos": [
+  {
+   "frame": 288,
+   "t": 12.0,
+   "tipo": "kick",
+   "nota": "BICADA #1 (pombo real) — 1o evento forte do filme",
+   "forca": "forte"
+  },
+  {
+   "frame": 360,
+   "t": 15.0,
+   "tipo": "coo",
+   "nota": "arrulho grave = baixo (a cada compasso)",
+   "forca": "medio"
+  },
+  {
+   "frame": 408,
+   "t": 17.0,
+   "tipo": "coo",
+   "nota": "arrulho grave = baixo (a cada compasso)",
+   "forca": "medio"
+  },
+  {
+   "frame": 456,
+   "t": 19.0,
+   "tipo": "coo",
+   "nota": "arrulho grave = baixo (a cada compasso)",
+   "forca": "medio"
+  },
+  {
+   "frame": 504,
+   "t": 21.0,
+   "tipo": "coo",
+   "nota": "arrulho grave = baixo (a cada compasso)",
+   "forca": "medio"
+  },
+  {
+   "frame": 552,
+   "t": 23.0,
+   "tipo": "coo",
+   "nota": "arrulho grave = baixo (a cada compasso)",
+   "forca": "medio"
+  },
+  {
+   "frame": 600,
+   "t": 25.0,
+   "tipo": "coo",
+   "nota": "arrulho grave = baixo (a cada compasso)",
+   "forca": "medio"
+  },
+  {
+   "frame": 648,
+   "t": 27.0,
+   "tipo": "coo",
+   "nota": "arrulho grave = baixo (a cada compasso)",
+   "forca": "medio"
+  },
+  {
+   "frame": 696,
+   "t": 29.0,
+   "tipo": "coo",
+   "nota": "arrulho grave = baixo (a cada compasso)",
+   "forca": "medio"
+  },
+  {
+   "frame": 400,
+   "t": 16.6667,
+   "tipo": "kick",
+   "nota": "BICADA #2 — duplicacao 1 -> 2; bicada da imagem (F2, mestra): kick ajustado ao frame f400",
+   "forca": "forte"
+  },
+  {
+   "frame": 412,
+   "t": 17.1667,
+   "tipo": "crack",
+   "nota": "migalha abre (revelacao F2 f412-421; +12f do kick, mesmo intervalo do prototipo)",
+   "forca": "medio"
+  },
+  {
+   "frame": 480,
+   "t": 20.0,
+   "tipo": "kick",
+   "nota": "BICADA #3 — duplicacao 2 -> 4 (kick duplo f480/f483)",
+   "forca": "forte"
+  },
+  {
+   "frame": 492,
+   "t": 20.5,
+   "tipo": "crack",
+   "nota": "2 migalhas abrem (duplo crack f492/f495)",
+   "forca": "medio"
+  },
+  {
+   "frame": 576,
+   "t": 24.0,
+   "tipo": "kick",
+   "nota": "BICADA #4 — preparacao (sem duplicacao)",
+   "forca": "forte"
+  },
+  {
+   "frame": 744,
+   "t": 31.0,
+   "tipo": "kick",
+   "nota": "BICADA #5 — migalha abre revelando patas (minipombo #1)",
+   "forca": "forte"
+  },
+  {
+   "frame": 756,
+   "t": 31.5,
+   "tipo": "crack",
+   "nota": "revelacao das patas (oclusao) + mini woodblock",
+   "forca": "forte"
+  },
+  {
+   "frame": 768,
+   "t": 32.0,
+   "tipo": "minipeck",
+   "nota": "camada de minibicadas entra (1/beat)",
+   "forca": "medio"
+  },
+  {
+   "frame": 864,
+   "t": 36.0,
+   "tipo": "minipeck",
+   "nota": "minibicadas 2/beat + roll de woodblock",
+   "forca": "medio"
+  },
+  {
+   "frame": 960,
+   "t": 40.0,
+   "tipo": "minipeck",
+   "nota": "minibicadas 4/beat — build p/ coletiva",
+   "forca": "medio"
+  },
+  {
+   "frame": 1068,
+   "t": 44.5,
+   "tipo": "kick",
+   "nota": "BICADA COLETIVA (todos juntos) — maximo do trecho; hold de 12f no pico -> CORTE em f1080 (45,000s)",
+   "forca": "maximo"
+  }
+ ],
+ "blocos": {
+  "A": {
+   "frames": [
+    0,
+    359
+   ],
+   "dificacao": "cama fina + ritmo real dos passos (nao quantizado); 1o evento forte em f288"
+  },
+  "B": {
+   "frames": [
+    360,
+    719
+   ],
+   "dificacao": "quantizacao; duplicacoes 1->2 (f384) e 2->4 (f480)"
+  },
+  "C": {
+   "frames": [
+    720,
+    1079
+   ],
+   "dificacao": "revelacao das patas (f744/f756), minibicadas, build, coletiva f1068, hold 12f, corte f1080"
+  }
+ },
+ "samples_reais": {
+  "kick": "clique da bicada em 16,7656s (f402 do field; 2 frames apos o contato visual f400 — latencia real; no corte o onset e quantizado ao frame da bicada)",
+  "woodblock": "tiques de unhas em 6,353 / 9,266 / 7,758 / 13,134s",
+  "hi-hat": "cliques curtos em 1,509 / 10,955 / 4,275 / 2,869s",
+  "crack": "tique de unha em 7,758s esticado 5x + bandpass 1,8-5,2k",
+  "cama": "ambiente inteiro lowpass 900Hz"
+ }
+}

@@ -1,0 +1,46 @@
+{
+  "migalha": {
+    "origem": "migalha_branco.png",
+    "bbox": [
+      431,
+      229,
+      1012,
+      578
+    ],
+    "wh": [
+      582,
+      350
+    ],
+    "area_solida_px": 127407,
+    "borda_suave_px": 6433,
+    "borda_pct": 5.05,
+    "cor_media_bgr": [
+      103.1,
+      148.1,
+      196.2
+    ],
+    "aspecto": 1.663
+  },
+  "minipombo": {
+    "origem": "minipombo_branco.png",
+    "bbox": [
+      107,
+      175,
+      1134,
+      689
+    ],
+    "wh": [
+      1028,
+      515
+    ],
+    "area_solida_px": 255164,
+    "borda_suave_px": 13555,
+    "borda_pct": 5.31,
+    "cor_media_bgr": [
+      103.4,
+      104.0,
+      105.3
+    ],
+    "aspecto": 1.996
+  }
+}

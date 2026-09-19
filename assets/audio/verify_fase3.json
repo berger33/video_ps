@@ -1,0 +1,79 @@
+{
+ "itens": {
+  "1_onsets_vs_grade": {
+   "eventos_fortes": 7,
+   "delta_max_frames": 0.1,
+   "pares (frame_grade, tipo, delta_f)": [
+    [
+     288,
+     "kick",
+     0.1
+    ],
+    [
+     400,
+     "kick",
+     0.08
+    ],
+    [
+     480,
+     "kick",
+     0.1
+    ],
+    [
+     576,
+     "kick",
+     0.1
+    ],
+    [
+     744,
+     "kick",
+     0.1
+    ],
+    [
+     756,
+     "crack",
+     0.0
+    ],
+    [
+     1068,
+     "kick",
+     0.1
+    ]
+   ],
+   "criterio": "delta <= 1 frame vs o frame de cada evento (bicada f400 = mestra da imagem; grid musical 12f/beat fase 288; apos a Fase 4, rodar contra frames reais das bicadas no corte)",
+   "ok": true
+  },
+  "2_1o_evento_forte": {
+   "pico_do_kick1 (50ms)": 0.32,
+   "pico_maximo_antes_f288": 0.036,
+   "ratio_de_pico": 8.86,
+   "criterio": ">= 4.0 (a 1a bicada e o 1o evento forte: tudo antes e cama)",
+   "ok": true
+  },
+  "3_crescendo_e_pico_maximo": {
+   "rms_A": 0.008,
+   "rms_B": 0.0322,
+   "rms_C": 0.0415,
+   "rms_hit_4f": 0.1268,
+   "pico_maximo_do_filme": 0.71,
+   "na_frame": 1068,
+   "criterio": "A < B < C (crescendo); pico maximo do filme DENTRO do hit (f1068-1080); RMS do ataque do hit >= RMS do bloco C",
+   "ok": true
+  },
+  "4_duracao_hold": {
+   "frames_totais": 1080.0,
+   "pico_nos_primeiros_10ms": true,
+   "pico_no_frame": 0.0,
+   "pico_max_do_hold": 0.71,
+   "maior_pico_apos_100ms": 0.101,
+   "pico_ultimo_100ms": 0.0,
+   "criterio": "1080 frames; pico no 1o decil do hold; apos o corpo do kick (100ms) nada acima de 20% do pico (minipecks da pata); corte com cauda < 10% do pico",
+   "ok": true
+  },
+  "5_preview": {
+   "arquivo": "/home/user/video_ps/assets/audio/fase3_preview.png",
+   "ok": true
+  }
+ },
+ "aprovado": true
+}
