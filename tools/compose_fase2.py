@@ -60,9 +60,9 @@ SLIDE = 40.0                   # px de deslocamento de B na abertura
 
 # ----------------------------- posicoes (coords. do quadro) ----------------
 POS_A = (452.0, 621.0)         # migalha original, sob a ponta do bico
-POS_B = (448.0, 617.0)         # B nasce DENTRO da carapaca de A (100% ocluida; tune_occlusion.py)
-SCALE_A = 40.0 / 653.0         # migalha ~40px de largura na cena
-SCALE_B = SCALE_A * 0.62       # B mais distante -> menor (tecnica 6; tune_occlusion.py)
+POS_B = (452.0, 619.0)         # B nasce DENTRO da carapaca de A (100% ocluida; tune_occlusion.py: POS_A+(0,-2), sprite regen)
+SCALE_A = 40.0 / 582.0         # migalha ~40px de largura na cena (sprite 582px, regen F1bis)
+SCALE_B = SCALE_A * 0.68       # B mais distante -> menor (tecnica 6; tune_occlusion.py, sprite regen)
 ROT_B = 8.0                    # rotacao constante de B (diferente da de A)
 
 # wobble: o "clipe de origem" da migalha (rotacao lenta sinusoidal)
@@ -129,9 +129,13 @@ def crack_mask(w: int, h: int, xs: list[int], ys: list[int], side: int,
 
 def cut_halves(rgba: np.ndarray) -> tuple[np.ndarray, np.ndarray]:
     """Divide a migalha em duas metades em canvas de TAMANHO INTEIRO (mesmo
-    referencial local) — o fecho das duas reconstrui a silhueta original."""
+    referencial local) — o fecho das duas reconstrui a silhueta original.
+    A rachadura e definida em coords. normalizadas (0-1) e escala ao canvas
+    do sprite atual (a rachadura original foi desenhada p/ 653x436)."""
     h, w = rgba.shape[:2]
-    xs, ys = [335, 320, 342, 328], [0, 140, 300, 436]
+    xn, yn = [0.513, 0.490, 0.524, 0.502], [0.0, 0.321, 0.688, 1.0]
+    xs = [int(x * (w - 1)) for x in xn]
+    ys = [int(y * (h - 1)) for y in yn]
     left = rgba.copy()
     right = rgba.copy()
     left[:, :, 3] *= crack_mask(w, h, xs, ys, -1)
