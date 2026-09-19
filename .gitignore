@@ -1,0 +1,54 @@
+# Assets de mídia ficam FORA do Git (workspace local apenas).
+# No repositório entra só código, docs e listas de decisão.
+
+# vídeo / placas / renders
+/assets/
+/plates/
+/renders/
+/build/
+/out/
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.prores
+*.dpx
+
+# áudio (samples, stems, mixagens)
+/audio/
+*.wav
+*.aiff
+*.flac
+
+# máscaras / mattes / intermediários por frame
+/masks/
+/frames/
+/intermediate/
+*.exr
+*.tiff
+
+# ambientes Python (não persistem entre turnos; recriados por tools/setup_env.sh)
+.venv/
+venv/
+env/
+tools/venv/
+tools/bin/
+tools/models/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# modelos de rede baixados
+/models/
+*.onnx
+*.pth
+*.ckpt
+*.safetensors
+
+# caches e temporários
+.cache/
+*.log
+*.tmp
+.DS_Store
