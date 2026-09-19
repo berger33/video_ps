@@ -31,6 +31,9 @@
 .venv/
 venv/
 env/
+tools/venv/
+tools/bin/
+tools/models/
 __pycache__/
 *.pyc
 .pytest_cache/
