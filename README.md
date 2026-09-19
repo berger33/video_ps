@@ -16,8 +16,8 @@ Trabalho conduzido em fases, com aprovação humana obrigatória entre cada uma.
 |---|---|---|
 | 0 | Entendimento do roteiro (sem código) | **aprovada** |
 | 1 | Aquisição/preparação de assets (clipes + máscaras alpha) | **aprovada** |
-| 2 | Protótipo do mecanismo (1 bicada → 1 duplicação, por oclusão) | **entregue — aguardando aprovação** |
-| 3 | Áudio (diegético ou trilha pronta — decisão documentada) | pendente |
+| 2 | Protótipo do mecanismo (1 bicada → 1 duplicação, por oclusão) | **aprovada (com ajustes)** |
+| 3 | Áudio (diegético ou trilha pronta — decisão documentada) | **entregue — aguardando aprovação** |
 | 4 | Build do trecho completo 0:00–0:45 | pendente |
 | 5 | Polimento e exportação MP4 1080p | pendente |
 
@@ -32,6 +32,10 @@ Trabalho conduzido em fases, com aprovação humana obrigatória entre cada uma.
 - [`docs/fase2-mecanismo.md`](docs/fase2-mecanismo.md) — protótipo do mecanismo: bicada →
   salto → oclusão (carapaça) → duplicação, com checklist medido (reveal 10 frames,
   MAE 45,1 entre poses, oclusão 100%, sombra Δ 8–12) e decisões de design (Fase 2).
+- [`docs/fase3-audio.md`](docs/fase3-audio.md) — trilha 45,000s: caminho
+  diegético (percussão 100% do clipe, baixo sintetizado por não haver arrulho
+  no material), grade 120 BPM, eventos, regra de sincronia (bicada f400 =
+  mestra) e checklist medido 5/5 (Fase 3).
 
 ## Material de origem
 
