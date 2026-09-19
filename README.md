@@ -17,8 +17,8 @@ Trabalho conduzido em fases, com aprovação humana obrigatória entre cada uma.
 | 0 | Entendimento do roteiro (sem código) | **aprovada** |
 | 1 | Aquisição/preparação de assets (clipes + máscaras alpha) | **aprovada** |
 | 2 | Protótipo do mecanismo (1 bicada → 1 duplicação, por oclusão) | **aprovada (com ajustes)** |
-| 3 | Áudio (diegético ou trilha pronta — decisão documentada) | **entregue — aguardando aprovação** |
-| 4 | Build do trecho completo 0:00–0:45 | pendente |
+| 3 | Áudio (diegético ou trilha pronta — decisão documentada) | **aprovada** |
+| 4 | Build do trecho completo 0:00–0:45 | **entregue — aguardando aprovação** |
 | 5 | Polimento e exportação MP4 1080p | pendente |
 
 ## Documentos
@@ -36,6 +36,9 @@ Trabalho conduzido em fases, com aprovação humana obrigatória entre cada uma.
   diegético (percussão 100% do clipe, baixo sintetizado por não haver arrulho
   no material), grade 120 BPM, eventos, regra de sincronia (bicada f400 =
   mestra) e checklist medido 5/5 (Fase 3).
+- [`docs/fase4-build.md`](docs/fase4-build.md) — build completo: S1 documental + S2
+  forrageio com 6 bicadas sincronizadas, cadeia de duplicação A→B/C/D→4 minipombos
+  (revelação 100% por oclusão), regra anti-pop e checklist medido 9/9 (Fase 4).
 
 ## Material de origem
 
