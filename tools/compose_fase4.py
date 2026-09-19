@@ -2,7 +2,8 @@
 """FASE 4 — build completo 0:00–0:45 (1080 frames @ 24fps).
 
 Estrutura (docs/fase4-build.md):
-  S1  f0–257    plano documental — caminhada (janela w160_235, 4 jump-cuts)
+  S1  f0–257    plano documental — caminhada (w160_235, 5 blocos de
+                fases distintas: cortes em f54/108/141/162/216)
   S2  f258–1079 forrageio contínuo (janela w370_442 estabilizada em f406)
                 — cadeia de ciclos de caminhada (src 370–399 + 412–441,
                 taxas 0,96–1,03) com 6 bicadas reais cravadas na grade
@@ -53,10 +54,16 @@ WALK_RATES = (1.0, 0.97, 1.03, 0.98, 1.02, 0.96)    # variacao por ciclo
 
 def build_lut() -> dict[int, tuple[str, int]]:
     lut: dict[int, tuple[str, int]] = {}
-    # S1: caminhada (w160_235 = s160..s234, 75f) — 3 loops + cauda de 33f
+    # S1 (F5): 5 blocos com fases diferentes da janela — os cortes nao
+    # repetem o mesmo par de poses (leitura de edicao documental, nao de
+    # loop); offsets 0/21/42/0/33, wrap interno so no bloco 3 (f141)
+    S1_BLOCKS = ((0, 54, 0), (54, 108, 21), (108, 162, 42),
+                 (162, 216, 0), (216, 258, 33))
     for f in range(0, S1_END + 1):
-        src = 160 + (f % 75) if f < 225 else 160 + (f - 225)
-        lut[f] = ("walk", src)
+        for (a, b, off) in S1_BLOCKS:
+            if a <= f < b:
+                lut[f] = ("walk", 160 + (off + f - a) % 75)
+                break
     # S2: caminhadas (ciclo de 60f, taxa variando) + pedacos de bicada
     pos, wp, cyc = S1_END + 1, 0.0, 0
     for target in PECKS:

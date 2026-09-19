@@ -19,7 +19,7 @@ Trabalho conduzido em fases, com aprovação humana obrigatória entre cada uma.
 | 2 | Protótipo do mecanismo (1 bicada → 1 duplicação, por oclusão) | **aprovada (com ajustes)** |
 | 3 | Áudio (diegético ou trilha pronta — decisão documentada) | **aprovada** |
 | 4 | Build do trecho completo 0:00–0:45 | **entregue — aguardando aprovação** |
-| 5 | Polimento e exportação MP4 1080p | pendente |
+| 5 | Polimento e exportação MP4 1080p | **entregue — aguardando aprovação** |
 
 ## Documentos
 
@@ -39,6 +39,9 @@ Trabalho conduzido em fases, com aprovação humana obrigatória entre cada uma.
 - [`docs/fase4-build.md`](docs/fase4-build.md) — build completo: S1 documental + S2
   forrageio com 6 bicadas sincronizadas, cadeia de duplicação A→B/C/D→4 minipombos
   (revelação 100% por oclusão), regra anti-pop e checklist medido 9/9 (Fase 4).
+- [`docs/fase5-entrega.md`](docs/fase5-entrega.md) — polimento dos cortes do plano
+  documental (5 blocos, pares de poses distintos), export 1080p (lanczos+unsharp,
+  BT.709, faststart) e checklist medido 6/6 (Fase 5).
 
 ## Material de origem
 

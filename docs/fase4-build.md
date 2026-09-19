@@ -6,7 +6,7 @@ Status: **renderizado, verify 9/9** — aguardando gate (aprovação humana).
 
 | Trecho | Frames | Conteúdo |
 |---|---|---|
-| S1 | 0–257 (0:00–0:10,7) | Plano documental: caminhada real (janela `w160_235` = s160–s234, 75f) em 3 loops + cauda de 33f — 4 jump-cuts, zero compostos |
+| S1 | 0–257 (0:00–0:10,7) | Plano documental: caminhada real (janela `w160_235` = s160–s234, 75f) em 5 blocos de fases distintas (cortes f54/108/141/162/216 — polimento da F5), zero compostos |
 | S2 | 258–1079 (0:10,7–0:45) | Forrageio contínuo na geometria f406: ciclos de caminhada (src 370–399 + 412–441 = 60f, taxas 0,96–1,03 por ciclo) com **6 bicadas reais** cravadas na grade da trilha |
 
 A regra de sincronia (imagem manda, áudio acompanha; aprovada na F3) vale
