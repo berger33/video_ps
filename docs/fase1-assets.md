@@ -90,8 +90,8 @@ o material permite (pombo) e **alpha exato por key + refinamento** onde o alfa �
 
 | asset | dimensão | px sólidos | borda suave | cor média BGR | sombra |
 |---|---|---|---|---|---|
-| `migalha_rgba.png` | 385×350 | 87.176 | 4.850 (5,6%) | 159,6 / 189,4 / 208,6 | sintetizada em composição |
-| `minipombo_rgba.png` | 571×574 | 143.296 | 8.720 (6,1%) | 134,2 / 137,5 / 143,4 | idem |
+| `migalha_rgba.png` | 653×436 | 174.383 | 7.983 (4,58%) | 73,2 / 125,2 / 179,9 | sintetizada em composição |
+| `minipombo_rgba.png` | 747×648 | 174.347 | 12.986 (7,45%) | 108,9 / 113,7 / 117,4 | idem |
 
 A sombra difusa do estúdio foi **removida do alfa de propósito** (técnica nº 5: sombra é
 sintetizada na cena, com direção/penumbra medidas da luz do plate).
@@ -160,3 +160,29 @@ e 0,064 — existe cama de rua real, matéria-prima para a Fase 3 (bicada = kick
 5. **Confirmação do plano de corte**: janelas utilizáveis são f160–235 (caminhada) e
    f370–442 (caminhada + bicada). Se você quiser 45 s contínuos desse material, será preciso
    repetição/reconstituição — o que é legítimo no gênero, mas muda o desenho da montagem.
+
+---
+
+## 7. Registro de reconstrução (2026-09-19, sandbox novo)
+
+A conversa anterior caiu com erro e o sandbox foi reiniciado: os assets de mídia
+(fora do Git) se perderam. O material-fonte (clipes) e as ferramentas estavam no
+Git (branch da sessão anterior), então reconstruí o pipeline do zero e re-medi
+tudo. O que mudou vs. a primeira entrega:
+
+- **Sprites re-gerados**: as imagens-fonte em fundo branco (`assets/raw/
+  migalha_branco.png`, `minipombo_branco.png`) não estavam no Git. Gerei novas
+  (mesma descrição/propósito) e repassei por `tools/extract_sprites.py`. Por isso
+  as dimensões e a cor média mudaram (tabela §3.1 atualizada). A **técnica** e o
+  princípio são idênticos: chave de fundo branco + alfa contínuo + sombra do
+  estúdio fora do alfa.
+- **Janela da bicada reconstruída**: `tools/build_plate.py --window 370,442`
+  rodou de novo. Residuais idênticos (0,53 px mediano) — o método é
+  determinístico sobre o mesmo clipe.
+- **Áudio re-extraído**: `A_ambiente.wav` (20,01 s) e `B_ambiente.wav` (10,01 s),
+  48 kHz mono.
+- **Novo artefato de aprovação**: `tools/preview_fase1.py` gera
+  `assets/preview/painel_fase1.png` (contact sheets + checagem de alfa sobre
+  tabuleiro + plate com fantasma marcado) e `assets/preview/alpha_check.png`.
+
+Tudo acima é reproduzível com `bash tools/setup_env.sh` + os scripts citados.
